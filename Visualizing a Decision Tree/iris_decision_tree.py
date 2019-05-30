@@ -4,7 +4,7 @@
 # Class 	Visualizing a Decision Tree - Machine Learning Recipes #2
 # Link 		https://youtu.be/tNa99PG8hR8
 # @Code  	Josh Gordon		
-# @Comments Karl Sousa
+# @Comments 	Karl Sousa
 #----------------------------------------------------------------------
 
 # Summary -------------------------------------------------------------
@@ -22,8 +22,8 @@
 		# Sepal width: 	1
 		# Petal length:	2
 		# Petal width: 	3
-	#Lables
-		# Setosa:		0
+	# Lables
+		# Setosa:	0
 		# Versicolor:	1
 		# Virginica:	2
 
@@ -56,7 +56,7 @@ test_idx = [0, 50, 100]
 train_target = np.delete(iris.target, test_idx)
 train_data = np.delete(iris.data, test_idx, axis=0)
 
-# testing data
+# Testing data
 test_target = iris.target[test_idx]	#lables expected ("output")
 test_data = iris.data[test_idx] 	#features ("input")
 
@@ -83,5 +83,5 @@ tree.export_graphviz(clf,
 
 graph = pydot.graph_from_dot_data(dot_data.getvalue())
 
-#pydot.graph_from_dot_data returns a list, so we have to get its first element
+# pydot.graph_from_dot_data returns a list, so we have to get its first element
 graph[0].write_pdf("iris.pdf")
