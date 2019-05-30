@@ -4,7 +4,7 @@
 # Class 	Hello World - Machine Learning Recipes #1
 # Link		https://youtu.be/cKxRvEZd3Mw
 # @Code 	Josh Gordon		
-# @Comments Karl Sousa
+# @Comments 	Karl Sousa
 #----------------------------------------------------------------------
 
 # Summary -------------------------------------------------------------
@@ -28,7 +28,7 @@ from sklearn import tree
 # Code ----------------------------------------------------------------
 # 1 - Collect training data
 features = [[140, 1], [130, 1], [150, 0], [170, 0]]	#input data
-labels = [0, 0, 1, 1]								#output data
+labels = [0, 0, 1, 1]					#output data
 
 # 2 - Train classifier (we will use the Decision tree)
 clf = tree.DecisionTreeClassifier()
