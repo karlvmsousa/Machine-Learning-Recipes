@@ -1,9 +1,9 @@
 #----------------------------------------------------------------------
 #### Machine Learning Recipes with Josh Gordon (Google Developers) ####
 
-# Class 	What Makes a Good Feature? - Machine Learning Recipes #3
-# Link 		https://youtu.be/N9fDIAflCMY
-# @Code  	Josh Gordon		
+# Class 	  What Makes a Good Feature? - Machine Learning Recipes #3
+# Link 		  https://youtu.be/N9fDIAflCMY
+# @Code  	  Josh Gordon		
 # @Comments Karl Sousa (github.com/karlvandesman)
 #----------------------------------------------------------------------
 
@@ -31,9 +31,9 @@ import matplotlib.pyplot as plt
 greyhounds = 500
 labs = 500
 
-#Lets say that the height is normally distributed (averages 28 and 24)
+# Lets say that the height is normally distributed (averages 28 and 24)
 grey_height = 28 + 4 * np.random.randn(greyhounds)
-lab_height = 24 + 4 *np.random.randn(labs)
+lab_height = 24 + 4 * np.random.randn(labs)
 
 # Plot an histogram with population and heights for each breed
 # With this example we can easily see that for higher heights, the
