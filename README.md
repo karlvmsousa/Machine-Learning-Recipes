@@ -16,3 +16,14 @@ Good features are informative, independent, and simple. These concepts will be i
 https://matplotlib.org/examples/statistics/histogram_demo_multihist.html
 
 ![image](https://user-images.githubusercontent.com/31048109/58599828-4356b680-8258-11e9-95f3-5d49524bbde8.png)
+
+## #4 Writing a pipeline
+We use the Iris data set again, but with another classifier, the k-Nearest Neighbors (KNN). Using the model_selection we can randomly select the train data from the Iris data set, and try to predict the rest of the samples. At the end we will measure the accuracy of both classifiers.
+
+![image](https://user-images.githubusercontent.com/31048109/58675739-08be4e00-832c-11e9-8c8b-2ae69e94c421.png)
+
+## #5 Writing our first classifier
+
+In order to really understand what is behind a classifier, we will build our own, base on the k-Nearest Neighbors (KNN). At the end, we compare the accuracy of a random prediction, our classifier KNN, and the KNN from the library.
+
+![image](https://user-images.githubusercontent.com/31048109/58675887-a44fbe80-832c-11e9-8d4f-27d527a27b7c.png)
