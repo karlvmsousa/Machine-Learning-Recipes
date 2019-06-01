@@ -27,3 +27,11 @@ We use the Iris data set again, but with another classifier, the k-Nearest Neigh
 In order to really understand what is behind a classifier, we will build our own, base on the k-Nearest Neighbors (KNN). At the end, we compare the accuracy of a random prediction, our classifier KNN, and the KNN from the library.
 
 ![image](https://user-images.githubusercontent.com/31048109/58675887-a44fbe80-832c-11e9-8d4f-27d527a27b7c.png)
+
+## #6 Tensor Flow for Poets
+
+
+## #7 Classifying Handwritten Digits with TF.Learn
+This time we will create a image classifier using TF.Learn. The problem is to classify handwritten digits from the MNIST dataset. Given an image of a digit we have is to predict which one it is (0-9). At the end we'll visualize the weights the classifier learns and gain intuition on how it works. This lesson is conducted in a .ipynb file, a Notebook that can run python. You can run it by Jupyter or by [Google Colab](https://colab.research.google.com/), an interesting cloud option. 
+
+![image](https://user-images.githubusercontent.com/31048109/58753442-7cc83580-8495-11e9-9317-3ac2b574d37f.png)
