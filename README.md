@@ -35,3 +35,9 @@ In order to really understand what is behind a classifier, we will build our own
 This time we will create a image classifier using TF.Learn. The problem is to classify handwritten digits from the MNIST dataset. Given an image of a digit we have is to predict which one it is (0-9). At the end we'll visualize the weights the classifier learns and gain intuition on how it works. This lesson is conducted in a .ipynb file, a Notebook that can run python. You can run it by Jupyter or by [Google Colab](https://colab.research.google.com/), an interesting cloud option. 
 
 ![image](https://user-images.githubusercontent.com/31048109/58753442-7cc83580-8495-11e9-9317-3ac2b574d37f.png)
+
+## #8 Let’s Write a Decision Tree Classifier from Scratch
+
+In a simple example of predicting the type of fruit, we'll write a decision tree classifier (using CART). Which questions are the best to partition the dataset? How to quantify the uncertainty? We'll build the functions to answer these questions and show how the impurity and information gain are calculated.
+
+![image](https://user-images.githubusercontent.com/31048109/58976837-c4ed9d80-879e-11e9-99d4-c6953f1f1a37.png)
