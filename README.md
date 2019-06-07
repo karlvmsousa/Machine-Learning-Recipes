@@ -23,7 +23,6 @@ We use the Iris data set again, but with another classifier, the k-Nearest Neigh
 ![image](https://user-images.githubusercontent.com/31048109/58675739-08be4e00-832c-11e9-8c8b-2ae69e94c421.png)
 
 ## #5 Writing our first classifier
-
 In order to really understand what is behind a classifier, we will build our own, base on the k-Nearest Neighbors (KNN). At the end, we compare the accuracy of a random prediction, our classifier KNN, and the KNN from the library.
 
 ![image](https://user-images.githubusercontent.com/31048109/58675887-a44fbe80-832c-11e9-8d4f-27d527a27b7c.png)
@@ -37,7 +36,11 @@ This time we will create a image classifier using TF.Learn. The problem is to cl
 ![image](https://user-images.githubusercontent.com/31048109/58753442-7cc83580-8495-11e9-9317-3ac2b574d37f.png)
 
 ## #8 Let’s Write a Decision Tree Classifier from Scratch
-
 In a simple example of predicting the type of fruit, we'll write a decision tree classifier (using CART). Which questions are the best to partition the dataset? How to quantify the uncertainty? We'll build the functions to answer these questions and show how the impurity and information gain are calculated.
 
 ![image](https://user-images.githubusercontent.com/31048109/58976837-c4ed9d80-879e-11e9-99d4-c6953f1f1a37.png)
+
+## #9 Intro to Feature Engineering with TensorFlow
+In this lesson we will look at ways of represent the features, to turn them in a more useful representation. To visualize what the transformations on the features do, we will use the tool FACETS. We will deal with Bucketing, Crossing, Hashing and Embedding. The goal in this example is to predict if someone's income is greater than US$ 50k.
+
+![image](https://user-images.githubusercontent.com/31048109/59074132-89d39300-88a0-11e9-8eea-b0105be62bc7.png)
