@@ -27,8 +27,10 @@ In order to really understand what is behind a classifier, we will build our own
 
 ![image](https://user-images.githubusercontent.com/31048109/58675887-a44fbe80-832c-11e9-8d4f-27d527a27b7c.png)
 
-## #6 Tensor Flow for Poets
+## #6 Train an Image Classifier with TensorFlow for Poets
+A brief introduction to Tensorflow. This is a great way to get started learning about and working with image classification. It is important to say that tensorflow is a high level code and a powerful classifier.
 
+![image](https://user-images.githubusercontent.com/31048109/59273614-ff3bbc80-8c2e-11e9-85da-62887fbbbb2f.png)
 
 ## #7 Classifying Handwritten Digits with TF.Learn
 This time we will create a image classifier using TF.Learn. The problem is to classify handwritten digits from the MNIST dataset. Given an image of a digit we have is to predict which one it is (0-9). At the end we'll visualize the weights the classifier learns and gain intuition on how it works. This lesson is conducted in a .ipynb file, a Notebook that can run python. You can run it by Jupyter or by [Google Colab](https://colab.research.google.com/), an interesting cloud option. 
