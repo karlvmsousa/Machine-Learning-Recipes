@@ -44,3 +44,8 @@ In a simple example of predicting the type of fruit, we'll write a decision tree
 In this lesson we will look at ways of represent the features, to turn them in a more useful representation. To visualize what the transformations on the features do, we will use the tool FACETS. We will deal with Bucketing, Crossing, Hashing and Embedding. The goal in this example is to predict if someone's income is greater than US$ 50k.
 
 ![image](https://user-images.githubusercontent.com/31048109/59074132-89d39300-88a0-11e9-8eea-b0105be62bc7.png)
+
+## #10 Getting Started with Weka
+In this lesson we will work with Weka, a ML library with Graphical User Interface (GUI). The examples are: predict if a person has diabets, based on its glucose levels and predict if a congress person is a Democrat or a Republican based on how they voted on different bills. Also, we'll see how to evaluate the results of these experiments and how to do feature selection.
+
+![image](https://user-images.githubusercontent.com/31048109/59235375-38d8dd00-8bc7-11e9-96d7-82ab8d4dc4fa.png)
